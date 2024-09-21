@@ -1,34 +1,71 @@
+/* General styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
     background-color: #333;
     color: white;
+    padding: 1rem;
     text-align: center;
-    padding: 10px;
 }
 
-h1, h2 {
-    margin: 10px 0;
+header nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-#about, #projects {
-    padding: 20px;
-    margin: 20px;
-    background-color: white;
-    border-radius: 8px;
+header nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+h2 {
+    color: #333;
+}
+
+.project {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project a:hover {
+    background-color: #555;
 }
 
 footer {
+    text-align: center;
+    padding: 1rem;
     background-color: #333;
     color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    margin-top: 2rem;
 }
+
