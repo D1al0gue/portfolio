@@ -487,3 +487,10 @@ canvas {
     outline: none; /* Remove default focus outline */
 }
 
+.tryhackme-profile {
+    position: absolute;
+    left: 38%;
+    transform: translateX(-50%);
+    z-index: 10;
+    top: 7px; 
+}
