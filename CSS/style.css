@@ -373,3 +373,113 @@ canvas {
       opacity: 1;
     }
   }
+
+  /* General fix for vertical alignment */
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+/* About Section */
+.about {
+    width: 100%;
+    padding: 70px 10%;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 10%;
+    color: white;
+}
+
+.about h2 {
+    font-size: 48px;
+    color: green;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 10px green;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+/* Skills Section */
+.skills {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 50px 0;
+}
+
+.skills h2 {
+    font-size: 48px;
+    color: green;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 10px green;
+}
+
+.skills-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+    max-width: 1000px;
+}
+
+.skills-content .tech-skills,
+.skills-content .soft-skills {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.skills-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-content ul li {
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+}
+
+/* Projects Section */
+.projects {
+    width: 100%;
+    padding: 50px 10%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.projects h2 {
+    font-size: 48px;
+    color: green;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 10px green;
+}
+
+.projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projects ul li {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.projects ul li a {
+    color: lightgreen;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.projects ul li a:hover {
+    color: white;
+}
